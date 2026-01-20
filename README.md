@@ -67,3 +67,5 @@ CREATE TABLE copias (
     descripcion TEXT
 );
 ```
+
+luego

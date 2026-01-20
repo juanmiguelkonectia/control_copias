@@ -1,0 +1,1 @@
+# la contraseña es la de postgree "admin"

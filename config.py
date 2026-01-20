@@ -1,11 +1,11 @@
 DB_CONFIG = {
     "dbname": "control_copias",
     "user": "postgres",
-    "password": "LA CONTRASEÑA DE PGADMIN 4 PON LA AQUI",
+    "password": "pgadmin",
     "host": "localhost",
     "port": 5432
 }
-
+# LA CONTRASEÑA DE PGADMIN 4 PON LA AQUI
 
 
 

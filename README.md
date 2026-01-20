@@ -90,6 +90,6 @@ CREATE TABLE copias (
 
 **8. Guardar:** Almacena los datos en tu base de datos de SQL.
 
-**9. Exportar CSV:** Exporta los datos de los tinteros en CSV.
+**9. Exportar CSV:** Exporta los datos de los tinteros en CSV..
 
 

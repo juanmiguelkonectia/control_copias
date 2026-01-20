@@ -2,6 +2,9 @@
 
 Esta aplicación permite gestionar el **gasto de tóner** y registrar el uso de tu impresora de forma eficiente.
 
+<img width="949" height="853" alt="image" src="https://github.com/user-attachments/assets/7920ba57-4e6b-4aec-b11e-e53904431923" />
+
+
 ### 📝 Características Principales
 
 - **Control de consumibles:** Registra cambios de cartuchos y calcula su duración real.

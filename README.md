@@ -39,16 +39,19 @@ control_copias/
 ├── models.py    # Lógica de datos
 └── config.py    # Configuración personal
 ```
-
+- Ten en cuenta que en el archivo **config.py** has de añadir tu contraseña de pgAdmin 4 para que funcione
 ---
 
 ### 🚀 Instalación y Configuración
 
-**1. Librerías necesarias:** Copia este comando en tu terminal: `pip install psycopg2 matplotlib`
+**1. Librerías necesarias:** Copia este comando en tu terminal: `pip install psycopg2` y `pip install matplotlib`, la primera permite a pyton conectarse con pgAdmin y la segunda nos permite dibujar la gráfica.
 
-**2. Base de Datos SQL:** Crea las tablas con este código en pgAdmin:
+**2. Base de Datos SQL:** Crea la base de datos y las tablas necesarias con este código en pgAdmin:
 
 SQL
+```
+CREATE DATABASE control_copias;
+```
 
 ```
 CREATE TABLE cartuchos (
@@ -67,5 +70,26 @@ CREATE TABLE copias (
     descripcion TEXT
 );
 ```
+### 🚀 Uso de la aplicación
 
-luego
+<img width="853" height="768" alt="image" src="https://github.com/user-attachments/assets/8f6f0b91-abb4-4ab4-869b-ea1ebe2c1087" />
+
+**1. Fecha de insertado:** Esta es la fecha en la que se colocó un nuevo toner de este color concreto.
+
+**2. Fecha actual:** Esta es la fecha actual en que has abierto la aplicación por defecto la del cambio del toner, pero es modificable.
+
+**3. Cambiar:** Aplicas la nueva fecha del cambio de toner. El contador de copias se pone a cero para él.
+
+**4. Fecha actual:** Esta es la fecha actual en que has abierto la aplicación por defecto la de las copias que almacenes, pero es modificable.
+
+**5. Número de copias en B/N:** Copias de blanco en negro que has realizado y quieres almacenar en tu base de datos.
+
+**6. Número de copias en Color:** Copias de color que has realizado y quieres almacenar en tu base de datos.
+
+**7. Descripción:** Por si quieres almacenar el objeto para el que se realizaron las copias.
+
+**8. Guardar:** Almacena los datos en tu base de datos de SQL.
+
+**9. Exportar CSV:** Exporta los datos de los tinteros en CSV.
+
+

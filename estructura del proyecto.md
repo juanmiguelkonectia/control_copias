@@ -1,4 +1,3 @@
-
 control_copias/
 │
 ├── main.py

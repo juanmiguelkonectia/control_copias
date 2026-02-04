@@ -44,7 +44,7 @@ control_copias/
 
 ### 🚀 Instalación y Configuración
 
-**1. Librerías necesarias:** Copia este comando en tu terminal: `pip install psycopg2` y `pip install matplotlib`, la primera permite a pyton conectarse con pgAdmin y la segunda nos permite dibujar la gráfica.
+**1. Librerías necesarias:** Copia este comando en tu terminal: `pip install psycopg2` y `pip install matplotlib`, la primera permite a pyton conectarse con pgAdmin y la segunda nos permite dibujar la gráfica. También es necesario instalar ``pip install psycopg[binary]`
 
 **2. Base de Datos SQL:** Crea la base de datos y las tablas necesarias con este código en pgAdmin:
 

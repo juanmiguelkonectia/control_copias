@@ -70,6 +70,11 @@ CREATE TABLE copias (
     descripcion TEXT
 );
 ```
+### 🈸 Pasos para crear el ejecutable
+**Instalar la herramienta:** Abre la terminal en Visual Studio Code y escribe este comando para instalar el generador: `pip install pyinstaller`
+
+**Generar el archivo:** En la misma terminal, ejecuta el siguiente comando sustituyendo **"main.py"** por el nombre de tu archivo si lo hubieras modificado: `pyinstaller --onefile main.py`
+
 ### 🚀 Uso de la aplicación
 
 <img width="853" height="768" alt="image" src="https://github.com/user-attachments/assets/8f6f0b91-abb4-4ab4-869b-ea1ebe2c1087" />
